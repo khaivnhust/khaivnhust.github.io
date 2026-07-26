@@ -1,8 +1,12 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
+import { StaggerContainer, StaggerItem } from '@/components/motion/FadeIn'
 
 const MAX_DISPLAY = 5
 
@@ -10,20 +14,25 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <motion.div
+          className="space-y-2 pt-6 pb-8 md:space-y-5"
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        >
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
             Latest
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
-        </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        </motion.div>
+        <StaggerContainer className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post
             return (
-              <li key={slug} className="py-12">
+              <StaggerItem key={slug} className="py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
@@ -65,10 +74,10 @@ export default function Home({ posts }) {
                     </div>
                   </div>
                 </article>
-              </li>
+              </StaggerItem>
             )
           })}
-        </ul>
+        </StaggerContainer>
       </div>
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base leading-6 font-medium">

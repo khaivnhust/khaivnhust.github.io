@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
@@ -13,7 +16,12 @@ const Header = () => {
   }
 
   return (
-    <header className={headerClass}>
+    <motion.header
+      className={headerClass}
+      initial={{ opacity: 0, y: -16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+    >
       <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center justify-between">
           <div className="mr-3">
@@ -46,7 +54,7 @@ const Header = () => {
         <ThemeSwitch />
         <MobileNav />
       </div>
-    </header>
+    </motion.header>
   )
 }
 
