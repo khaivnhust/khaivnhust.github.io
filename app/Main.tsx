@@ -21,7 +21,7 @@ export default function Home({ posts }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="from-primary-100 via-primary-50 pointer-events-none absolute -top-24 -right-24 -z-10 h-72 w-72 rounded-full bg-gradient-to-br to-transparent blur-3xl dark:from-primary-900/40 dark:via-primary-900/10 dark:to-transparent" />
+          <div className="from-primary-100 via-primary-50 dark:from-primary-900/40 dark:via-primary-900/10 pointer-events-none absolute -top-24 -right-24 -z-10 h-72 w-72 rounded-full bg-gradient-to-br to-transparent blur-3xl dark:to-transparent" />
           <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
             <Image
               src="/static/images/avatar.png"
