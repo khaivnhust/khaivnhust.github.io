@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
+import Image from '@/components/Image'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
@@ -15,17 +16,32 @@ export default function Home({ posts }) {
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <motion.div
-          className="space-y-2 pt-6 pb-8 md:space-y-5"
+          className="relative overflow-hidden pt-8 pb-10"
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-            Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+          <div className="from-primary-100 via-primary-50 pointer-events-none absolute -top-24 -right-24 -z-10 h-72 w-72 rounded-full bg-gradient-to-br to-transparent blur-3xl dark:from-primary-900/40 dark:via-primary-900/10 dark:to-transparent" />
+          <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+            <Image
+              src="/static/images/avatar.png"
+              alt={siteMetadata.author}
+              width={96}
+              height={96}
+              className="ring-primary-200 dark:ring-primary-800 h-20 w-20 rounded-full object-cover ring-4 sm:h-24 sm:w-24"
+            />
+            <div className="space-y-2 md:space-y-3">
+              <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-tight dark:text-gray-100">
+                Xin chào, tôi là{' '}
+                <span className="from-primary-500 to-primary-700 bg-gradient-to-r bg-clip-text text-transparent">
+                  {siteMetadata.author}
+                </span>
+              </h1>
+              <p className="max-w-2xl text-lg leading-7 text-gray-500 dark:text-gray-400">
+                {siteMetadata.description}
+              </p>
+            </div>
+          </div>
         </motion.div>
         <StaggerContainer className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
