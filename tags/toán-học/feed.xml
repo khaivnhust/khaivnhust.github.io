@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Blog của Khải</title>
+      <link>https://khaivnhust.github.io/blog</link>
+      <description>Góc viết của Khải về toán học, văn chương và hành trình nghiên cứu tại HUST.</description>
+      <language>vi</language>
+      <managingEditor>nguyenthekhaitg@gmail.com (Khai Nguyen)</managingEditor>
+      <webMaster>nguyenthekhaitg@gmail.com (Khai Nguyen)</webMaster>
+      <lastBuildDate>Mon, 16 Sep 2024 00:55:41 GMT</lastBuildDate>
+      <atom:link href="https://khaivnhust.github.io/tags/toán-học/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://khaivnhust.github.io/blog/mot-bai-toan-hinh-hoc-phang-hay-ve-truc-dang-phuong-hang-diem-dieu-hoa</guid>
+    <title>Một bài toán hình học phẳng hay về trục đẳng phương – hàng điểm điều hòa</title>
+    <link>https://khaivnhust.github.io/blog/mot-bai-toan-hinh-hoc-phang-hay-ve-truc-dang-phuong-hang-diem-dieu-hoa</link>
+    <description>Trang gốc hiện chưa có nội dung.</description>
+    <pubDate>Mon, 16 Sep 2024 00:55:41 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Toán học</category>
+  </item>
+
+  <item>
+    <guid>https://khaivnhust.github.io/blog/nghich-li-russell-va-van-de-ve-tap-hop</guid>
+    <title>Nghịch lí Russell và vấn đề về tập hợp</title>
+    <link>https://khaivnhust.github.io/blog/nghich-li-russell-va-van-de-ve-tap-hop</link>
+    <description>Theo thuyết tập hợp chất phác, bất cứ nhóm sự vật nào định nghĩa được đều được xem như là một Tập hợp. Ở đây, giả sử R là một tập hợp của tất cả các tập hợp không phải là thành viên của chính nó. N…</description>
+    <pubDate>Mon, 16 Sep 2024 00:52:25 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Toán học</category>
+  </item>
+
+  <item>
+    <guid>https://khaivnhust.github.io/blog/phuong-trinh-he-phuong-trinh-vi-phan-va-ung-dung-trong-thuc-te</guid>
+    <title>Phương trình – hệ phương trình vi phân và ứng dụng trong thực tế</title>
+    <link>https://khaivnhust.github.io/blog/phuong-trinh-he-phuong-trinh-vi-phan-va-ung-dung-trong-thuc-te</link>
+    <description>Mô hình SIR là một trong những mô hình ngăn đơn giản nhất và nhiều mô hình là dẫn xuất của dạng cơ bản này. Mô hình bao gồm ba ngăn:S: Số lượng cá nhân nhạy cảm. Khi một cá nhân nhạy cảm và một cá …</description>
+    <pubDate>Mon, 16 Sep 2024 00:54:42 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Toán học</category>
+  </item>
+
+  <item>
+    <guid>https://khaivnhust.github.io/blog/so-luoc-ve-7-bai-toan-thien-nien-ki</guid>
+    <title>Sơ lược về 7 bài toán thiên niên kỉ</title>
+    <link>https://khaivnhust.github.io/blog/so-luoc-ve-7-bai-toan-thien-nien-ki</link>
+    <description>Các bài toán thiên niên kỷ (tiếng Anh: Millennium Prize Problems) là bảy bài toán nổi tiếng và phức tạp được lựa chọn bởi Viện Toán học Clay vào ngày 24 tháng 5 năm 2000, bao gồm giả thuyết Birch v…</description>
+    <pubDate>Mon, 16 Sep 2024 00:53:50 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Toán học</category>
+  </item>
+
+    </channel>
+  </rss>

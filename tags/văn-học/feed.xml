@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Blog của Khải</title>
+      <link>https://khaivnhust.github.io/blog</link>
+      <description>Góc viết của Khải về toán học, văn chương và hành trình nghiên cứu tại HUST.</description>
+      <language>vi</language>
+      <managingEditor>nguyenthekhaitg@gmail.com (Khai Nguyen)</managingEditor>
+      <webMaster>nguyenthekhaitg@gmail.com (Khai Nguyen)</webMaster>
+      <lastBuildDate>Mon, 16 Sep 2024 03:10:17 GMT</lastBuildDate>
+      <atom:link href="https://khaivnhust.github.io/tags/văn-học/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://khaivnhust.github.io/blog/baithohay</guid>
+    <title>Về một bài viết hay của Nguyên Hồng ở SGK Văn 7 cũ</title>
+    <link>https://khaivnhust.github.io/blog/baithohay</link>
+    <description>Đá mòn nhưng dạ chẳng mòn Tào Khê nước chảy vẫn còn trơ trơ Mình thích đọc sách Văn, đơn giản vì sách Văn có nhiều đoạn trích mà chúng ta thường không để ý đến. Điển hình như 2 ảnh sau, trích trong…</description>
+    <pubDate>Mon, 16 Sep 2024 03:10:17 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Văn học</category>
+  </item>
+
+  <item>
+    <guid>https://khaivnhust.github.io/blog/nguyen-binh</guid>
+    <title>Nhà ga trong mắt Nguyễn Bính</title>
+    <link>https://khaivnhust.github.io/blog/nguyen-binh</link>
+    <description>Nguyễn Bính có 2 bài thơ về nhà ga. Ông Bính có cái hay là, cái góc nhìn của ông không mới lạ, nó thân thuộc lạ lùng. Nó cho ta cảm được cái chất của hiện thực pha chút lãng mạn của chất thơ. Thơ h…</description>
+    <pubDate>Mon, 16 Sep 2024 03:09:03 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>Văn học</category>
+  </item>
+
+    </channel>
+  </rss>

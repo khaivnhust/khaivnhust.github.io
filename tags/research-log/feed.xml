@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Blog của Khải</title>
+      <link>https://khaivnhust.github.io/blog</link>
+      <description>Góc viết của Khải về toán học, văn chương và hành trình nghiên cứu tại HUST.</description>
+      <language>vi</language>
+      <managingEditor>nguyenthekhaitg@gmail.com (Khai Nguyen)</managingEditor>
+      <webMaster>nguyenthekhaitg@gmail.com (Khai Nguyen)</webMaster>
+      <lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://khaivnhust.github.io/tags/research-log/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://khaivnhust.github.io/blog/research-log-kickoff</guid>
+    <title>Research Log #1 - Kickoff</title>
+    <link>https://khaivnhust.github.io/blog/research-log-kickoff</link>
+    <description>Bắt đầu nhật ký nghiên cứu tại Lab AI thầy Linh - các hướng đang theo dõi.</description>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    <author>nguyenthekhaitg@gmail.com (Khai Nguyen)</author>
+    <category>research-log</category>
+  </item>
+
+    </channel>
+  </rss>

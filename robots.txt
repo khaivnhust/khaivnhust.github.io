@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://khaivnhust.github.io
+Sitemap: https://khaivnhust.github.io/sitemap.xml
